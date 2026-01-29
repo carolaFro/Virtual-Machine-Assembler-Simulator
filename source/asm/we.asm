@@ -4,8 +4,7 @@ W       .BYT 'W'
 Uno     .INT #-1
         .INT #-2
         JMP  MAIN ; this is a comment
-; probando
-        ;probando
+
 MAIN    LDA  R4, W
         LDB R3, R4
         TRP  #3
