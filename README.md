@@ -41,11 +41,31 @@ The project focuses on computer architecture fundamentals, instruction execution
 ## Project Structure
 
 ```
-.
-├── src/                 # Assembler and VM implementation
-├── include/             # Header files
-├── programs/            # Sample assembly programs
-├── Makefile             # Build configuration
+Virtual-Machine-Assembler-Simulator/
+├── source/
+│   ├── asm/
+│   │   ├── proj1.asm
+│   │   ├── proj2.asm
+│   │   ├── proj3.asm
+│   │   ├── we.asm
+│   │   ├── proj1.bin
+│   │   ├── proj2.bin
+│   │   ├── proj3.bin
+│   │   ├── symtab.csv
+│   │   ├── proj1.as_exec.log
+│   │   ├── proj2.as_exec.log
+│   │   └── proj3.as_exec.log
+│   │
+│   ├── memory/
+│   │   ├── __init__.py
+│   │   ├── isa.py
+│   │   └── Mem.py
+│   │
+│   ├── vm/
+│   │   ├── Assembler.py
+│   │   └── VirtualMachine.py
+│   │
+│   └── main.py
 └── README.md
 ```
 
